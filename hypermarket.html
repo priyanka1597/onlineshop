@@ -1,0 +1,105 @@
+<html>
+<head><title>HyperMarket</title>
+<link rel="stylesheet" type="text/css" href="hyper.css" />
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+<div id="main">
+<div style="position:absolute;top:30px;left:20px"><img src="3.png" height="100" width="200"></div>
+<font size="4" color="white" ><p align="right"> Gift card &nbsp &nbsp Track order &nbsp &nbsp <a href="signup.html" style="color:white">Signup</a> &nbsp &nbsp <a href="login.html" style="color:white">Login</a> &nbsp &nbsp &nbsp &nbsp &nbsp</p></font><br><br>
+
+
+<form>
+  <center><input style="height:30" size="120"  type="text" name="search" placeholder="Search..">
+  <input style="height:30" type="button" value="Search">
+   </center>
+</form>
+<br>
+
+
+
+<font size="4" color="white" >
+<center>
+Electronics
+  &nbsp &nbsp &nbsp 
+Appliances &nbsp &nbsp &nbsp Men &nbsp &nbsp &nbsp Women  &nbsp &nbsp &nbsp Baby & Kids &nbsp &nbsp &nbsp Home & furniture &nbsp &nbsp &nbsp Books & more &nbsp &nbsp &nbsp</center></center></font>
+
+
+
+
+<div style="position:absolute;top:1300px;left:20px">
+<a href="sh.html" style="color:purple" ><font size="5">
+customer support</font></a></div>
+
+
+
+
+
+<br>
+<br>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="Colourful_shopping_carts.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="shopping11.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="shopping-wallpaper-11645.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  
+</div>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<img src="offer2.png" style="width:1350px;height:600px;">
+
+
+
+</body>
+</html>
+
+
+
